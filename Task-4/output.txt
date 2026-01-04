@@ -1,0 +1,39 @@
+=== Weekend Getaway Ranker ===
+Enter source city: mumbai
+
+Top Weekend Destinations:
+
+                                   Destination  Rating  Popularity
+                              Gateway of India     4.6        3.60
+                          Siddhivinayak Temple     4.8        1.05
+                                  Marine Drive     4.5        1.50
+                              Mahalaxmi Temple     4.7        0.33
+Chhatrapati Shivaji Maharaj Vastu Sangrahalaya     4.6        0.34
+
+----------------------------------------------------------------------------
+
+=== Weekend Getaway Ranker ===
+Enter source city: kolkata
+
+Top Weekend Destinations:
+
+             Destination  Rating  Popularity
+           Howrah Bridge     4.6        1.20
+Dakshineswar Kali Temple     4.7        0.82
+       Victoria Memorial     4.6        0.73
+              Belur Math     4.7        0.47
+    Science City Kolkata     4.4        0.88
+
+----------------------------------------------------------------------
+
+=== Weekend Getaway Ranker ===
+Enter source city: Bangalore
+
+Top Weekend Destinations:
+
+             Destination  Rating  Popularity
+ ISKCON Temple Bangalore     4.6        1.14
+Lalbagh Botanical Garden     4.4        1.50
+             Cubbon Park     4.4        1.32
+          Vidhana Soudha     4.6        0.80
+        Bangalore Palace     4.2        0.90
