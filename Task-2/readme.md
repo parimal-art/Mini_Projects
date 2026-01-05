@@ -2,6 +2,22 @@
 
 A secure and robust RESTful API built with Node.js, Express, and MongoDB for managing tasks. This project handles user authentication using JWT (JSON Web Tokens) and performs full CRUD (Create, Read, Update, Delete) operations on tasks, ensuring data isolation so users can only manage their own tasks.
 
+
+
+---
+
+## 🔗 Postman Collection
+
+You can explore and test all API endpoints using the official Postman collection:
+
+👉 **Postman API Documentation & Collection:**  
+https://parimalmaity.postman.co/workspace/Personal-Workspace~1c56b169-247b-4302-b7e1-5283c0940bd3/request/43831976-2704ea91-217c-4fb0-9933-a044c5378f2d?action=share&source=copy-link&creator=43831976&ctx=documentation
+
+This collection includes:
+- User Registration & Login
+- JWT-protected Task APIs
+- CRUD operations with proper headers and payloads
+
 ---
 
 ## 📸 Project Snapshot
