@@ -14,7 +14,7 @@ export default function AuthPage({ type, onComplete, onError }) {
     setLoading(true);
     onError(''); // Clear previous errors
 
-    const endpoint = type === 'signup' ? `${API_URL}/auth/signup` : `${API_URL}/auth/login`;
+    const endpoint = type === 'signup' ? `${API_URL}/api/auth/signup` : `${API_URL}/api/auth/login`;
     const payload = type === 'signup' ? { username: name, email, password } : { email, password };
 
     try {

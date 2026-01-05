@@ -15,7 +15,7 @@ export default function UserProfile() {
   useEffect(() => {
     const fetchUserArt = async () => {
       try {
-        const res = await fetch(`${API_URL}/artworks/user/${userId}`);
+        const res = await fetch(`${API_URL}/api/artworks/user/${userId}`);
         const data = await res.json();
         setArtworks(data);
       } catch (err) {

@@ -44,7 +44,7 @@ export default function UploadForm({ token, onClose, onSuccess }) {
 
     setLoading(true);
     try {
-      const res = await fetch(`${API_URL}/artworks`, {
+      const res = await fetch(`${API_URL}/api/artworks`, {
         method: "POST",
         headers: { "x-auth-token": authToken },
         body: formData,

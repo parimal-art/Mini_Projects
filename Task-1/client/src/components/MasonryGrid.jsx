@@ -19,7 +19,7 @@ function ArtworkCard({ item, isOwner, token, onDelete }) {
     if (!window.confirm("Are you sure you want to delete this masterpiece?")) return;
 
     try {
-      await fetch(`${API_URL}/artworks/${item._id}`, {
+      await fetch(`${API_URL}/api/artworks/${item._id}`, {
         method: "DELETE",
         headers: { "x-auth-token": token },
       });

@@ -55,7 +55,7 @@ export default function App() {
 
   const fetchArtworks = async () => {
     try {
-      const res = await fetch(`${API_URL}/artworks`);
+      const res = await fetch(`${API_URL}/api/artworks`);
       const data = await res.json();
       if (res.ok) {
         setArtworks(data);
